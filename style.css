@@ -15,9 +15,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2rem;
+    margin: .5rem;
     border:2px dotted rgb(219, 2, 219);
-    
+    border-radius: 5rem;
+    padding: .45rem;
     text-emphasis-color: rgb(112, 11, 201);
     text-shadow: rgba(88, 1, 160,.68);
     font-weight: 700;
