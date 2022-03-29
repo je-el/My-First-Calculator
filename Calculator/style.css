@@ -1,0 +1,134 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500&display=swap');
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+#wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    border: none;
+    text-shadow: rgba(88, 1, 160,.68);
+    font-weight: 700;
+    font-size: x-large;
+}
+hr{
+    border: none;
+    height: 2px;
+    width: 20rem;
+    background-color: #ff009d;
+}
+#contact{
+    display:flex;
+    font-style: italic;
+    font-weight: 500;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    border: none;
+    text-shadow: rgba(88, 1, 160, 0.863);
+}
+.link{
+    color:pink;
+    text-decoration: none;
+    padding: .45rem;
+    margin: .39rem;
+    background-color:rgb(133, 28, 133);
+    box-shadow: inset -6px -6px 13px #5801a0, 6px 6px 13px #980ca5;
+    border-radius: 2rem;
+    transition: ease 0.3s;
+
+}
+.link :hover{
+    background-color: rgb(150,123,177);
+    box-shadow: inset 6px 6px 13px #5801a0, 6px 6px 13px #980ca5;
+    
+}
+.link > img {
+    width: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(to right,#5801a0,#a009c5,#980ca5,#8b1396,#ff009d)
+
+}
+
+.calculator-grid {
+    box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0,0,0,.16);
+    border-radius: 12rem;
+    border: none;
+    padding: 15rem;
+    height: 100vh;
+    margin: 10rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px,auto) repeat(4,100px);
+
+}
+
+.calculator-grid > button {
+    box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0,0,0,.16);
+    border-radius: 45px;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline:none;
+    background-color: rgba(255,255,255,.75);
+    font-weight: bold;
+    transition: ease 0.5s;
+    
+}
+
+.calculator-grid > button:hover {
+    background-color: rgba(255,255,255,.90);
+    box-shadow: inset -6px -6px 13px rgba(0,0,0,.25), 6px 6px 13px #fff;
+
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.output {
+    grid-column: span 4;
+    box-shadow: inset -6px -6px 13px #fff, 6px 6px 13px rgba(0,0,0,.16);
+    padding: 20px;
+    background-color: rgba(6, 71, 128, 0.45);
+    border: none;
+    border-radius: 32px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap:break-word;
+    word-break: break-all;
+    margin: 5px;
+
+}
+
+.output .previous-operand {
+    color: #afafaf;
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
