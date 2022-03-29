@@ -16,7 +16,8 @@
     align-items: center;
     flex-direction: column;
     margin: 2rem;
-    border: none;
+    border:rgb(219, 2, 219) line-width 2px line-style dotted;
+    
     text-emphasis-color: rgb(112, 11, 201);
     text-shadow: rgba(88, 1, 160,.68);
     font-weight: 700;
