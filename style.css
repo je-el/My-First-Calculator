@@ -67,11 +67,11 @@ body{
 
 .calculator-grid {
     box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0,0,0,.16);
-    border-radius: 12rem;
+    border-radius: 9.8rem;
     border: none;
     padding: 15rem;
     height: 100vh;
-    margin: 10rem;
+    margin: 8rem;
     display: grid;
     justify-content: center;
     align-content: center;
