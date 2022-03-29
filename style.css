@@ -16,8 +16,8 @@
     align-items: center;
     flex-direction: column;
     margin: 2rem;
-    border:2px dotted rgb(219, 2, 219);
-    
+    border: 0.125rem dotted rgb(219, 2, 219);
+    border-radius: 9.8rem;
     text-emphasis-color: rgb(112, 11, 201);
     text-shadow: rgba(88, 1, 160,.68);
     font-weight: 700;
@@ -25,7 +25,7 @@
 }
 hr{
     border: none;
-    height: 2px;
+    height: .125rem;
     width: 20rem;
     background-color: #ff009d;
 }
@@ -57,7 +57,7 @@ hr{
     
 }
 .link > img {
-    width: 20px;
+    width: 1.25rem;
 }
 
 body{
@@ -78,19 +78,19 @@ body{
     justify-content: center;
     align-content: center;
     
-    grid-template-columns: repeat(4,100px);
-    grid-template-rows: minmax(120px,auto) repeat(4,100px);
+    grid-template-columns: repeat(4,6.25rem);
+    grid-template-rows: minmax(7.5rem,auto) repeat(4,6.25rem);
 
 }
 
 .calculator-grid > button {
     box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0,0,0,.16);
-    border-radius: 45px;
+    border-radius: 2.813rem;
     border: none;
-    padding: 16px;
+    padding: 1rem;
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid white;
+    border: .063rem solid white;
     outline:none;
     background-color: rgba(255,255,255,.75);
     font-weight: bold;
@@ -111,17 +111,17 @@ body{
 .output {
     grid-column: span 4;
     box-shadow: inset -6px -6px 13px #fff, 6px 6px 13px rgba(0,0,0,.16);
-    padding: 20px;
+    padding: 1.25rem;
     background-color: rgba(6, 71, 128, 0.45);
     border: none;
-    border-radius: 32px;
+    border-radius: 2rem;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
     word-wrap:break-word;
     word-break: break-all;
-    margin: 2px;
+    margin: .125;
 
 }
 
