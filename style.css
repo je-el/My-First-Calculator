@@ -1,12 +1,14 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 
 
 *, *::before, *::after {
     box-sizing: border-box;
     outline: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Audiowide';
     font-weight: normal;
 }
 
@@ -20,9 +22,9 @@
     border-radius: 9.8rem;
     text-emphasis-color: rgb(112, 11, 201);
     text-shadow: rgba(88, 1, 160,.68);
-    font-weight: 700;
-    font-size: x-large;
+    color: #ff009d;
 }
+
 hr{
     border: none;
     height: .125rem;
@@ -59,14 +61,9 @@ hr{
 .link > img {
     width: 1.25rem;
 }
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-}
+
   
 body{
-    padding: 0;
-    margin: 0;
     background:linear-gradient(to right,#5801a0,#a009c5,#980ca5,#8b1396,#ff009d)
 
 }
@@ -77,7 +74,8 @@ body{
     border: none;
     padding: 15rem;
     height: 100vh;
-    margin: 8rem;
+    width: fit-content;
+    margin: 0 auto;
     display: grid;
     justify-content: center;
     align-content: center;
