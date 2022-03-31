@@ -1,6 +1,3 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 
@@ -48,7 +45,7 @@ hr{
     padding: .45rem;
     margin: .39rem;
     background-color:rgb(133, 28, 133);
-    box-shadow: inset -0.375rem -0.375rem 0.813rem #5801a0, 0.375rem 0.375rem 0.813rem #980ca5;
+    box-shadow: inset -0.375rem -0.375rem 0.813rem #9029e4, 0.375rem 0.375rem 0.813rem #72107bc9;
     border-radius: 2rem;
     transition: ease 0.3s;
 
@@ -64,7 +61,7 @@ hr{
 
   
 body{
-    background:linear-gradient(to right,#5801a0,#a009c5,#980ca5,#8b1396,#ff009d)
+    background:linear-gradient(to right,#ff009d,#8b1396,#980ca5,#a009c5,#5801a0,#5801a0,#a009c5,#980ca5,#8b1396,#ff009d)
 
 }
 
@@ -79,7 +76,6 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    
     grid-template-columns: repeat(4,6.25rem);
     grid-template-rows: minmax(7.5rem,auto) repeat(4,6.25rem);
 
