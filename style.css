@@ -59,7 +59,11 @@ hr{
 .link > img {
     width: 1.25rem;
 }
-
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
 body{
     padding: 0;
     margin: 0;
