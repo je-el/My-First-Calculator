@@ -63,7 +63,9 @@ hr{
 body{
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to right,#ff009d,#8b1396,#980ca5,#a009c5,#5801a0,#5801a0,#a009c5,#980ca5,#8b1396,#ff009d)
+    margin: 5rem;
+    width: fit-content;
+    background:linear-gradient(to right,#ff009d,#8b1396,#8b1396,#ff009d)
 
 }
 
@@ -74,8 +76,7 @@ body{
     padding: 15rem;
     height: 100vh;
     width: fit-content;
-    margin: 0 auto;
-    margin-top: .125rem;
+    margin: 0;
     display: grid;
     justify-content: center;
     align-content: center;
