@@ -61,6 +61,8 @@ hr{
 
   
 body{
+    justify-content: center;
+    align-items: center;
     background:linear-gradient(to right,#ff009d,#8b1396,#980ca5,#a009c5,#5801a0,#5801a0,#a009c5,#980ca5,#8b1396,#ff009d)
 
 }
