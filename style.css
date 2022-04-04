@@ -3,6 +3,7 @@
 
 
 *, *::before, *::after {
+    align-content: center;
     box-sizing: border-box;
     outline: none;
     font-family: 'Audiowide';
