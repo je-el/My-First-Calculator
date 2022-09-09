@@ -17,4 +17,5 @@ Created my first calculator using HTML,CSS, and Javascript
 
 Using HTML and CSS to create a stylized calculator web application. 
 Making stylistic choices to give the website a heading and contact information.
+Currently the site is mostly optimized for viewing on mobile devices.
   </p>
